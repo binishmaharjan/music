@@ -10,10 +10,6 @@
 		ACCAFBC420BE64F40052C0C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCAFBC320BE64F40052C0C7 /* AppDelegate.swift */; };
 		ACCAFBCB20BE64F60052C0C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCAFBCA20BE64F60052C0C7 /* Assets.xcassets */; };
 		ACCAFBCE20BE64F60052C0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCAFBCC20BE64F60052C0C7 /* LaunchScreen.storyboard */; };
-		ACCAFBD620BE69600052C0C7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCAFBD520BE69600052C0C7 /* RootViewController.swift */; };
-		ACCAFBD920BE6AA20052C0C7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCAFBD820BE6AA20052C0C7 /* SplashViewController.swift */; };
-		ACCAFBDB20BE6B760052C0C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCAFBDA20BE6B760052C0C7 /* LoginViewController.swift */; };
-		ACCAFBDD20BE6C590052C0C7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCAFBDC20BE6C590052C0C7 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +18,6 @@
 		ACCAFBCA20BE64F60052C0C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCAFBCD20BE64F60052C0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACCAFBCF20BE64F60052C0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACCAFBD520BE69600052C0C7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		ACCAFBD820BE6AA20052C0C7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		ACCAFBDA20BE6B760052C0C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		ACCAFBDC20BE6C590052C0C7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,24 +50,12 @@
 		ACCAFBC220BE64F40052C0C7 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				ACCAFBD720BE6A7A0052C0C7 /* ViewControllers */,
 				ACCAFBC320BE64F40052C0C7 /* AppDelegate.swift */,
 				ACCAFBCA20BE64F60052C0C7 /* Assets.xcassets */,
 				ACCAFBCC20BE64F60052C0C7 /* LaunchScreen.storyboard */,
 				ACCAFBCF20BE64F60052C0C7 /* Info.plist */,
 			);
 			path = Music;
-			sourceTree = "<group>";
-		};
-		ACCAFBD720BE6A7A0052C0C7 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				ACCAFBD520BE69600052C0C7 /* RootViewController.swift */,
-				ACCAFBD820BE6AA20052C0C7 /* SplashViewController.swift */,
-				ACCAFBDA20BE6B760052C0C7 /* LoginViewController.swift */,
-				ACCAFBDC20BE6C590052C0C7 /* MainViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,11 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCAFBDB20BE6B760052C0C7 /* LoginViewController.swift in Sources */,
-				ACCAFBD920BE6AA20052C0C7 /* SplashViewController.swift in Sources */,
-				ACCAFBD620BE69600052C0C7 /* RootViewController.swift in Sources */,
 				ACCAFBC420BE64F40052C0C7 /* AppDelegate.swift in Sources */,
-				ACCAFBDD20BE6C590052C0C7 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
